@@ -10,7 +10,7 @@ from collections import defaultdict
 st.set_page_config(layout="wide")
 
 #title of page
-st.title('Tekst-analyse van psychiatrische rapportages v1.1')
+st.title('Tekst-analyse van psychiatrische rapportages (v1.1)')
 
 #show / hide raw texts and tables
 option1 = st.checkbox('Laat tabel zien')
