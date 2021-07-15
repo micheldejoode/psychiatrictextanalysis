@@ -5,14 +5,12 @@ import pandas as pd
 from textblob import TextBlob
 from textblob.classifiers import NaiveBayesClassifier
 from collections import defaultdict
-import nltk
-nltk.download('punkt')
 
 #wide layout in streamlit
 st.set_page_config(layout="wide")
 
 #title of page
-st.title('Tekst analyse v1.1')
+st.title('Tekst-analyse van psychiatrische rapportages v1.1')
 
 #show / hide raw texts and tables
 option1 = st.checkbox('Laat tabel zien')
