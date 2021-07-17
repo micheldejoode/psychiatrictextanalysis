@@ -1,5 +1,6 @@
 # Psychiatric Text Analysis
 Pythons script for text analysis of psychiatric medical texts. It's focus is the Dutch language, but it can be used for other languages and topics too. 
+
 Python script voor tekst analyse van EPD rapportages in de GGZ / psychiatrie. Gericht op de Nederlandse taal, maar kan voor andere talen en andere onderwerpen gebruikt worden. 
 
 See a working demo here:
