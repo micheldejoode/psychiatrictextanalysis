@@ -12,9 +12,9 @@ https://share.streamlit.io/micheldejoode/psychiatrictextanalysis/main/tekstanaly
 3. Unpack somewhere where you can run the file with python
 4. Open the python console and type:
 
-'''bash
+'''shell
 pip install -r requirements.txt
-'''bash
+'''shell
 
 6. Wait...
 7. In the python console, type: streamlit run tekstanalyse.py
