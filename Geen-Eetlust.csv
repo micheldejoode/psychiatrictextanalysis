@@ -1,0 +1,18 @@
+eetlust is minimaal,pos
+geen eetlust,pos
+eet nauwelijks,pos
+eetlust is verminderd,pos
+geen warm eten,pos
+smaakt niet,pos
+smaakt ook niet, pos
+is afgevallen,pos
+valt af,pos
+verliest gewicht,pos
+eetlust is niet aanwezig,pos
+eetlust is toegenomen,neg
+eetlust neemt weer toe,neg
+heeft weer eetlust,neg
+smaakt weer,neg
+smaak begint terug te komen,neg
+eetlust is weer normaal,neg
+eetlust is weer terug,neg
