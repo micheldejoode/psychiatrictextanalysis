@@ -10,10 +10,15 @@ https://share.streamlit.io/micheldejoode/psychiatrictextanalysis/main/tekstanaly
 1. Make sure you have python installed. There are a lot of options here, I use WinPython, it's a portable version of python. The 'dot' version is only 24 mb. 
 2. Download the zip file from github
 3. Unpack somewhere where you can run the file with python
-4. Open the python console and type: pip install -r requirements.txt
-5. Wait...
-6. In the python console, type: streamlit run tekstanalyse.py
-7. It should start a local webserver and show the app. 
+4. Open the python console and type:
+
+'''bash
+pip install -r requirements.txt
+'''bash
+
+6. Wait...
+7. In the python console, type: streamlit run tekstanalyse.py
+8. It should start a local webserver and show the app. 
 
 # How it works
 The script makes use of the python Textblob library, which is a natural language processing (NLP) API, and specific the classification part (Naive Bayes Analyzer). What this does is search for specific words in a text, to classify it. Textblob can be trained with training-sentences, to learn what words belong to a classification, and which words are the oposite of a classification. For example, the script can see the difference between 'she is depressed' and 'she is not depressed anymore'. 
