@@ -17,8 +17,13 @@ pip install -r requirements.txt
 ```
 
 6. Wait...
-7. In the python console, type: streamlit run tekstanalyse.py
-8. It should start a local webserver and show the app. 
+7. In the python console, type: 
+
+```shell
+ streamlit run tekstanalyse.py
+ ```
+ 
+10. It should start a local webserver and show the app. 
 
 # How it works
 The script makes use of the python Textblob library, which is a natural language processing (NLP) API, and specific the classification part (Naive Bayes Analyzer). What this does is search for specific words in a text, to classify it. Textblob can be trained with training-sentences, to learn what words belong to a classification, and which words are the oposite of a classification. For example, the script can see the difference between 'she is depressed' and 'she is not depressed anymore'. 
