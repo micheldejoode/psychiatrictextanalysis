@@ -14,7 +14,7 @@ https://share.streamlit.io/micheldejoode/psychiatrictextanalysis/main/tekstanaly
 
 '''shell
 pip install -r requirements.txt
-'''shell
+'''
 
 6. Wait...
 7. In the python console, type: streamlit run tekstanalyse.py
