@@ -5,6 +5,8 @@ import pandas as pd
 from textblob import TextBlob
 from textblob.classifiers import NaiveBayesClassifier
 from collections import defaultdict
+import nltk
+nltk.download('punkt')
 
 #wide layout in streamlit
 st.set_page_config(layout="wide")
